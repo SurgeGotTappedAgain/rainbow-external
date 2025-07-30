@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{c40f0dd6-4b6d-4722-90cc-e584c9f40689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{10487d15-400c-4666-a472-2662962a72d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\memory">
+      <UniqueIdentifier>{5656ab2c-25e7-4153-a056-355fb93bff58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\includes">
+      <UniqueIdentifier>{9e34ee3c-9b23-4446-a08a-d1848489c7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\overlay">
+      <UniqueIdentifier>{bd63eea5-1b2a-4257-8475-443571b589b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui">
+      <UniqueIdentifier>{809dac96-7929-437d-b178-0a6654f4c228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\cache">
+      <UniqueIdentifier>{c094c062-7227-47b4-8c29-31a4ef12ccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\math">
+      <UniqueIdentifier>{e3600a45-98fc-4c8b-a7dd-5c2ccad2533d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\classes">
+      <UniqueIdentifier>{5789641b-fd68-404e-a3c0-7f04dae3991e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="dependencies\memory\memory.cpp">
+      <Filter>dependencies\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\includes\includes.cpp">
+      <Filter>dependencies\includes</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\overlay\overlay.cpp">
+      <Filter>dependencies\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_demo.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="game\cache\cache.cpp">
+      <Filter>game\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\math\math.cpp">
+      <Filter>dependencies\math</Filter>
+    </ClCompile>
+    <ClCompile Include="game\classes\classes.cpp">
+      <Filter>game\classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\memory\memory.hpp">
+      <Filter>dependencies\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\includes\includes.hpp">
+      <Filter>dependencies\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\overlay\overlay.hpp">
+      <Filter>dependencies\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_win32.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="game\cache\cache.hpp">
+      <Filter>game\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\math\math.hpp">
+      <Filter>dependencies\math</Filter>
+    </ClInclude>
+    <ClInclude Include="game\classes\classes.hpp">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
