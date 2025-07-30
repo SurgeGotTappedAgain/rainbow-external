@@ -10,3 +10,8 @@ Now using the same method, we do the same for the decrypted actor pointer. Based
 
 ---
 <img width="1920" height="1080" alt="esp" src="https://github.com/user-attachments/assets/a2ca9555-ffe7-46fd-9e30-b3d20b679671" />
+
+- 3D Bounding Boxes
+- Team Check
+- Local Player Check
+- Dead Check
