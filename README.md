@@ -16,3 +16,6 @@ Now using the same method, we do the same for the decrypted actor pointer. Based
 - Team Check
 - Local Player Check
 - Dead Check
+
+## Credits
+- Unnamedz03 (for helping me test stuff out and getting me back into r6)
